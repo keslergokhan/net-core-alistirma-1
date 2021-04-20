@@ -1,0 +1,38 @@
+﻿@model MVCOGRENME.WebUI.Models.UserAddViewModel;
+<div class="container-fluid mt-5">
+    <form asp-controller="User" asp-action="Add" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="exampleInputEmail1" asp-for="User.UserName"></label>
+            <input type="text" class="form-control" asp-for="User.UserName">
+            <span asp-validation-for="User.UserName"></span>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1" asp-for="User.UserSurName"></label>
+            <input type="text" class="form-control" asp-for="User.UserSurName">
+            <span asp-validation-for="User.UserSurName"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputPassword1" asp-for="User.UserImg"></label>
+            <input type="file" class="form-control" asp-for="UserImg">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputPassword1" asp-for="User.UserMail"></label>
+            <input type="email" class="form-control" asp-for="User.UserMail">
+            <span asp-validation-for="User.UserMail"></span>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1" asp-for="User.UserPassword"></label>
+            <input type="password" class="form-control" asp-for="User.UserPassword">
+            <span asp-validation-for="User.UserPassword"></span>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1" asp-for="User.UserPassword2"></label>
+            <input type="password" class="form-control" asp-for="User.UserPassword2">
+            <span asp-validation-for="User.UserPassword2"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

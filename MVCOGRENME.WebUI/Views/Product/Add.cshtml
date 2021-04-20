@@ -1,0 +1,34 @@
+﻿@model MVCOGRENME.WebUI.Models.ProductAddViewModel;
+<div class="container-fluid mt-5">
+    <form asp-controller="Product" asp-action="Add" method="post" enctype="multipart/form-data">
+
+        <div class="form-group">
+            <label for="exampleInputEmail1" asp-for="Product.CategoryID"></label>
+            <select class="form-control" asp-for="Product.CategoryID" asp-items="Model.Categorys"></select>
+        </div>
+        
+        <div class="form-group">
+            <label for="exampleInputEmail1" asp-for="Product.ProductName"></label>
+            <input type="text" class="form-control" asp-for="Product.ProductName">
+            <span asp-validation-for="Product.ProductName"></span>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1" asp-for="Product.ProductImg"></label>
+            <input type="file" class="form-control" asp-for="ProductImg">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1" asp-for="Product.ProductPrice"></label>
+            <input class="form-control" asp-for="Product.ProductPrice">
+            <span asp-validation-for="Product.ProductPrice"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputPassword1" asp-for="Product.ProductStock"></label>
+            <input class="form-control" asp-for="Product.ProductStock">
+            <span asp-validation-for="Product.ProductStock"></span>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Ekle</button>
+    </form>
+</div>

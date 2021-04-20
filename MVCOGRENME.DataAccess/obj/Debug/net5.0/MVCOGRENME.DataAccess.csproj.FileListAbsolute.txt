@@ -1,0 +1,17 @@
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\bin\Debug\net5.0\MVCOGRENME.DataAccess.deps.json
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\bin\Debug\net5.0\MVCOGRENME.DataAccess.dll
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\bin\Debug\net5.0\ref\MVCOGRENME.DataAccess.dll
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\bin\Debug\net5.0\MVCOGRENME.DataAccess.pdb
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\bin\Debug\net5.0\MVCOGRENME.Core.dll
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\bin\Debug\net5.0\MVCOGRENME.Entities.dll
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\bin\Debug\net5.0\MVCOGRENME.Core.pdb
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\bin\Debug\net5.0\MVCOGRENME.Entities.pdb
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\obj\Debug\net5.0\MVCOGRENME.DataAccess.csprojAssemblyReference.cache
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\obj\Debug\net5.0\MVCOGRENME.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\obj\Debug\net5.0\MVCOGRENME.DataAccess.AssemblyInfoInputs.cache
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\obj\Debug\net5.0\MVCOGRENME.DataAccess.AssemblyInfo.cs
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\obj\Debug\net5.0\MVCOGRENME.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\obj\Debug\net5.0\MVCOGRENME.DataAccess.csproj.CopyComplete
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\obj\Debug\net5.0\MVCOGRENME.DataAccess.dll
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\obj\Debug\net5.0\ref\MVCOGRENME.DataAccess.dll
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.DataAccess\obj\Debug\net5.0\MVCOGRENME.DataAccess.pdb

@@ -1,0 +1,46 @@
+﻿@model MVCOGRENME.WebUI.Models.UserIndexViewModel
+
+<div class="container-fluid mt-5">
+
+    <div class="text-right mt-2 mb-2">
+        <a asp-controller="User" asp-action="Add" class="btn btn-success">Yeni Ekle</a>
+    </div>
+    <div class="table-responsive-lg">
+        <table class="table">
+            <div><tr>
+                <th scope="col"> <label asp-for="@Model.User.UserID"></label></th>
+                <th scope="col"><label asp-for="@Model.User.UserImg"></label> </th>
+                <th scope="col"><label asp-for="@Model.User.UserName"></label></th>
+                <th scope="col"><label asp-for="@Model.User.UserMail"></label></th>
+                <th scope="col">İşlem</th>
+            </tr></div>
+
+            @foreach (var user in Model.Users)
+            {
+
+                <tr>
+                    <td>
+                        @if (!string.IsNullOrEmpty(user.UserImg))
+                        {
+                            <img src="~/images/@user.UserImg" width="50px" />
+                        }
+                        else
+                        {
+                            <span>Resim yok</span>
+                        }
+                    </td>
+                    <td>@user.UserID</td>
+                    <td>@user.UserName</td>
+                    <td>@user.UserMail</td>
+                    <td>
+                        <a asp-controller="User" asp-action="Status" asp-route-id="@user.UserID" class="btn btn-@(user.Status ? "danger":"success" )">@(user.Status ? "Pasif":"Aktif" )</a>
+                        <a asp-controller="User" asp-action="Update" asp-route-id="@user.UserID" class="btn btn-success">Güncelle</a>
+                        <a asp-controller="User" asp-action="Remove" asp-route-id="@user.UserID" class="btn btn-dark">Sil</a>
+                    </td>
+
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+﻿@model MVCOGRENME.WebUI.Models.CategoryAddViewModel;
+
+<div class="container-fluid mt-5">
+    <form asp-controller="Category" asp-action="Add" method="post" >
+        <div class="form-group">
+            <label asp-for="Category.CategoryName"></label>
+            <input type="text" class="form-control" asp-for="Category.CategoryName">
+            <span asp-validation-for="Category.CategoryName"></span>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Ekle</button>
+    </form>
+</div>

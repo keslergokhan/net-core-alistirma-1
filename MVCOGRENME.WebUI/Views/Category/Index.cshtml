@@ -1,0 +1,34 @@
+﻿@model MVCOGRENME.WebUI.Models.CategoryIndexViewModel;
+
+<div class="container-fluid mt-5">
+
+    <div class="text-right mt-2 mb-2">
+        <a asp-controller="Category" asp-action="Add" class="btn btn-success">Yeni Ekle</a>
+    </div>
+    <div class="table-responsive-lg">
+        <table class="table">
+            <div>
+                <tr>
+                    <th scope="col"><label asp-for="Category.CategoryID"></label></td>
+                    <th scope="col"><label asp-for="Category.CategoryName"></label></td>
+                    <th scope="col">İşlemler</td>
+                </tr>
+            </div>
+
+            @foreach (var category in Model.Categories)
+            {
+                <tr>
+                    <td>@category.CategoryID</td>
+                    <td>@category.CategoryName</td>
+                    <td>
+                        <a asp-controller="Category" asp-action="Status" asp-route-id="@category.CategoryID" class="btn btn-@(category.Status ? "danger":"success" )">@(category.Status ? "Pasif":"Aktif" )</a>
+                        <a asp-controller="Category" asp-action="Update" asp-route-id="@category.CategoryID" class="btn btn-success">Güncelle</a>
+                        <a asp-controller="Category" asp-action="Remove" asp-route-id="@category.CategoryID" class="btn btn-dark">Sil</a>
+                    </td>
+                </tr>
+            }
+
+
+        </table>
+    </div>
+</div>

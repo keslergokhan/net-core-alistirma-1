@@ -1,0 +1,12 @@
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.Core\bin\Debug\net5.0\MVCOGRENME.Core.deps.json
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.Core\bin\Debug\net5.0\MVCOGRENME.Core.dll
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.Core\bin\Debug\net5.0\ref\MVCOGRENME.Core.dll
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.Core\bin\Debug\net5.0\MVCOGRENME.Core.pdb
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.Core\obj\Debug\net5.0\MVCOGRENME.Core.csprojAssemblyReference.cache
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.Core\obj\Debug\net5.0\MVCOGRENME.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.Core\obj\Debug\net5.0\MVCOGRENME.Core.AssemblyInfoInputs.cache
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.Core\obj\Debug\net5.0\MVCOGRENME.Core.AssemblyInfo.cs
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.Core\obj\Debug\net5.0\MVCOGRENME.Core.csproj.CoreCompileInputs.cache
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.Core\obj\Debug\net5.0\MVCOGRENME.Core.dll
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.Core\obj\Debug\net5.0\ref\MVCOGRENME.Core.dll
+C:\Users\gkhnk\source\repos\MVCOGRENME\MVCOGRENME.Core\obj\Debug\net5.0\MVCOGRENME.Core.pdb

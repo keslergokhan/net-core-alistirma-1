@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVCOGRENME.Core\MVCOGRENME.Core.csproj" />
+    <ProjectReference Include="..\MVCOGRENME.Entities\MVCOGRENME.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

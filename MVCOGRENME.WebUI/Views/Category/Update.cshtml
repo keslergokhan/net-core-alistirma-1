@@ -1,0 +1,14 @@
+﻿@model MVCOGRENME.WebUI.Models.CategoryUpdateViewModel;
+
+<div class="container-fluid mt-5">
+    <form asp-controller="Category" asp-action="Update" method="post">
+        <input asp-for="Category.CategoryID" hidden />
+        <div class="form-group">
+            <label asp-for="Category.CategoryName"></label>
+            <input type="text" class="form-control" asp-for="Category.CategoryName">
+            <span asp-validation-for="Category.CategoryName"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Güncelle</button>
+    </form>
+</div>
